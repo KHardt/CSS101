@@ -1,0 +1,24 @@
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+
+span {
+    display: block;
+    border: 1px solid red;
+    margin: 25px;       
+}
+
+.n-child :nth-child(3){
+    border: 1px solid red; 
+}
+
+.n-child :nth-child(5){
+    border: 1px solid red; 
+}
+
+li::after {
+    display: inline;
+    content: ', '
+}
