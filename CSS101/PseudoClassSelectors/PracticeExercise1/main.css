@@ -22,3 +22,32 @@ li::after {
     display: inline;
     content: ', '
 }
+
+
+.n-type :nth-child(1) {
+    color: blue;
+}
+
+.n-type :nth-child(4) {
+    color: blue;
+}
+
+.n-type :nth-child(6) {
+    color: blue;
+}
+
+/*section .n-type :nth-last-of-type(1) {
+    color: red;
+}*/
+
+.first-of-type aside:first-of-type {
+    background-color: lime;
+}
+
+.first-of-type section:first-of-type {
+    background-color: purple;
+}
+
+.three section {
+    background-color: orange;
+}
