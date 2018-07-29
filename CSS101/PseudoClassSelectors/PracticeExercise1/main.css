@@ -64,3 +64,23 @@ li::after {
 .n-child::after 
     content: " (" attr(title= "hi") ")";
 }*/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+ a:hover {
+    color: white; 
+}
+
+nav:hover {
+    background-color: red;
+}
+
+
+nav:active {
+    font-size: 5em;
+}
