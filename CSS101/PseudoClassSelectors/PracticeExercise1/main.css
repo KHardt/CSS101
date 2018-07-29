@@ -51,3 +51,16 @@ li::after {
 .three section {
     background-color: orange;
 }
+
+.three :first-child {
+    background-color: goldenrod;
+}
+
+.three :last-child {
+    background-color: darkslategray;
+}
+
+/*This is a cheezy way to add title so am using JS
+.n-child::after 
+    content: " (" attr(title= "hi") ")";
+}*/
